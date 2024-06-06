@@ -59,8 +59,11 @@ button {
     color: #ffffff;
     background-color: rgb(11, 87, 11);
     font-size: 1rem;
-    font-weight: 400;
     cursor: pointer;
+}
+
+button span {
+    font-weight: 500;
 }
 
 button:hover {
@@ -69,6 +72,7 @@ button:hover {
 }
 
 .aboutus p {
+    margin-top: 15rem;
     font-size: 1.5rem;
     color: #353434;
 }
