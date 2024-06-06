@@ -1,6 +1,31 @@
 body {
     background-color: #fffaf4;
+    font-family: "Roboto", sans-serif;
 }
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 
 nav ul li {
     list-style-type: none;
@@ -76,3 +101,5 @@ button:hover {
     font-size: 1.5rem;
     color: #353434;
 }
+
+  
