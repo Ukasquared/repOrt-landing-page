@@ -1,0 +1,74 @@
+body {
+    background-color: #fffaf4;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    background-color: rgb(11, 87, 11);
+    padding: .3rem 0;
+}
+
+.name-of-proj {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.name-of-proj h2 {
+    font-size: 2.5rem;
+}
+
+.name-of-proj p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.images {
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.images img:nth-of-type(1){
+    width: 20rem;
+}
+.images img:nth-of-type(2), 
+.images img:nth-of-type(3){
+    width: 50rem;
+}
+
+button {
+    padding: 1rem;
+    border-style: none;
+    color: #ffffff;
+    background-color: rgb(11, 87, 11);
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(11, 87, 11);
+    background-color: #ffffff;
+}
+
+.aboutus p {
+    font-size: 1.5rem;
+    color: #353434;
+}
